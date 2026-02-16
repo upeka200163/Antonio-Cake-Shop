@@ -26,9 +26,11 @@ Font Awesome<br>
 ---
 
 <img width="560" height="383" alt="Screenshot (222)" src="https://github.com/user-attachments/assets/419aff06-b052-4e4e-82e5-80e9f393026b" />
+
 ---
-<br>
-🔧 Installation & Usage
+
+
+<br>🔧 Installation & Usage
 
 Clone the Repository:
 
