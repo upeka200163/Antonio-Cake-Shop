@@ -1,17 +1,17 @@
-# 🍝 Antonio Restaurant - Premium Dining Experience
+# 🍝 Antonio Restaurant 
 
 Antonio Restaurant is a high-end, responsive web application designed for an authentic Italian culinary business. This project showcases a modern UI/UX design, smooth scroll animations, and a complete user flow from browsing the menu to making reservations and ordering online.
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features<br>
 
-📱 Fully Responsive Design**
-🎭 Advanced Animations**
-🛒 Online Ordering System**
-📅 Table Reservation**
-🍕 Interactive Menu**
-📧 Contact & Support**
+📱 Fully Responsive Design<br>
+🎭 Advanced Animations<br>
+🛒 Online Ordering System<br>
+📅 Table Reservation<br>
+🍕 Interactive Menu<br>
+📧 Contact & Support<br>
 
 ---
 
@@ -27,7 +27,7 @@ Font Awesome
 
 <img width="560" height="383" alt="Screenshot (222)" src="https://github.com/user-attachments/assets/419aff06-b052-4e4e-82e5-80e9f393026b" />
 ---
-🔧 Installation & Usage
+<br>🔧 Installation & Usage
 Clone the Repository:
 
 Bash
