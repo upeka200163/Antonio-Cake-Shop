@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation - Antonio Restaurant</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  <link rel="stylesheet" href="./assets/CSS/reservation.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Antonio Logo">
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./reservation.html" class="active">Reservation</a></li>
+        <li><a href="./order.html">Order</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Reservation Hero Section -->
+  <section class="reservation-hero">
+    <div class="container">
+      <h1 class="animate-on-scroll">Reserve Your Table</h1>
+      <p class="animate-on-scroll">Experience the finest Italian cuisine in an intimate and welcoming atmosphere. Book your table today for an unforgettable dining experience.</p>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section class="reservation-section">
+    <div class="container">
+      <div class="reservation-details">
+        <div class="reservation-features animate-left">
+          <h2>Why Reserve with Us?</h2>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Exceptional Dining Experience</h3>
+              <p>From our carefully crafted menu to our attentive service, we ensure every meal is memorable.</p>
+            </div>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Convenient Hours</h3>
+              <p>We're open Tuesday through Sunday, from 5 PM to 11 PM, to accommodate your schedule.</p>
+            </div>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Perfect for Groups</h3>
+              <p>Whether it's an intimate dinner for two or a celebration with friends, we can accommodate groups of all sizes.</p>
+            </div>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-music"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Live Music</h3>
+              <p>Enjoy live music performances on Friday and Saturday evenings to enhance your dining experience.</p>
+            </div>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-wine-glass-alt"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Curated Wine Selection</h3>
+              <p>Pair your meal with the perfect wine from our extensive collection of Italian and international wines.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="reservation-form-container animate-right">
+          <h2 class="form-title">Book Your Table</h2>
+          <form id="reservation-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" placeholder="Your Phone" required>
+              </div>
+              <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" class="form-control" required>
+                  <option value="" disabled selected>Select Guests</option>
+                  <option value="1">1 Person</option>
+                  <option value="2">2 People</option>
+                  <option value="3">3 People</option>
+                  <option value="4">4 People</option>
+                  <option value="5">5 People</option>
+                  <option value="6">6 People</option>
+                  <option value="7">7 People</option>
+                  <option value="8">8 People</option>
+                  <option value="9">9+ People</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="time">Time</label>
+                <select id="time" class="form-control" required>
+                  <option value="" disabled selected>Select Time</option>
+                  <option value="17:00">5:00 PM</option>
+                  <option value="17:30">5:30 PM</option>
+                  <option value="18:00">6:00 PM</option>
+                  <option value="18:30">6:30 PM</option>
+                  <option value="19:00">7:00 PM</option>
+                  <option value="19:30">7:30 PM</option>
+                  <option value="20:00">8:00 PM</option>
+                  <option value="20:30">8:30 PM</option>
+                  <option value="21:00">9:00 PM</option>
+                  <option value="21:30">9:30 PM</option>
+                  <option value="22:00">10:00 PM</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="occasion">Special Occasion (Optional)</label>
+              <select id="occasion" class="form-control">
+                <option value="" selected>None</option>
+                <option value="birthday">Birthday</option>
+                <option value="anniversary">Anniversary</option>
+                <option value="date">Date Night</option>
+                <option value="business">Business Dinner</option>
+                <option value="celebration">Celebration</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="special-requests">Special Requests</label>
+              <textarea id="special-requests" class="form-control" rows="3" placeholder="Any special requests or dietary restrictions?"></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Reserve Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Info Section -->
+  <section class="reservation-info">
+    <div class="container">
+      <div class="section-title animate-on-scroll">
+        <h2>Reservation Information</h2>
+        <p>Everything you need to know before making your reservation</p>
+      </div>
+      
+      <div class="info-cards">
+        <div class="info-card animate-on-scroll">
+          <i class="fas fa-clock"></i>
+          <h3>Operating Hours</h3>
+          <p>Tuesday - Sunday: 5 PM - 11 PM</p>
+          <p>Monday: Closed</p>
+        </div>
+        
+        <div class="info-card animate-on-scroll">
+          <i class="fas fa-users"></i>
+          <h3>Group Reservations</h3>
+          <p>We welcome groups of all sizes. For parties of 9 or more, please call us directly to ensure proper accommodations.</p>
+        </div>
+        
+        <div class="info-card animate-on-scroll">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>Advance Booking</h3>
+          <p>Reservations are recommended, especially for weekend dining. You can book up to 30 days in advance.</p>
+        </div>
+        
+        <div class="info-card animate-on-scroll">
+          <i class="fas fa-utensils"></i>
+          <h3>Special Diets</h3>
+          <p>We accommodate dietary restrictions and allergies. Please inform us in advance so we can prepare accordingly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Antonio Restaurant">
+        </div>
+        <p>Antonio Restaurant has been serving authentic Italian cuisine since 2005. We take pride in our family recipes and commitment to quality ingredients, bringing the taste of Italy to your table.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="./index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="./about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="./menu.html"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="./reservation.html"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="./order.html"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="./contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>123 Italian Street, Little Italy<br>New York, NY 10013</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@antonio-restaurant.com</span>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter to receive updates on special offers, new menu items, and events.</p>
+        
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div>
+          <p>&copy; 2025 Antonio Restaurant. All rights reserved.</p>
+        </div>
+        <div>
+          <p>Designed with <i class="fas fa-heart" style="color: #F2360A;"></i> for food lovers</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="./script.js"></script>
+  <script>
+    // Additional JavaScript for reservation page
+    document.addEventListener('DOMContentLoaded', function() {
+      // Set minimum date to today
+      const dateInput = document.getElementById('date');
+      const today = new Date();
+      const formattedDate = today.toISOString().split('T')[0];
+      dateInput.min = formattedDate;
+      
+      // Set maximum date to 30 days from today
+      const maxDate = new Date();
+      maxDate.setDate(today.getDate() + 30);
+      const formattedMaxDate = maxDate.toISOString().split('T')[0];
+      dateInput.max = formattedMaxDate;
+      
+      // Form submission
+      const reservationForm = document.getElementById('reservation-form');
+      reservationForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // In a real application, you would send the form data to a server
+        // For this example, we'll just show an alert
+        alert('Thank you for your reservation! We will contact you shortly to confirm your booking.');
+        reservationForm.reset();
+      });
+    });
+  </script>
+</body>
+</html>

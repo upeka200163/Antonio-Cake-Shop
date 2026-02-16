@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu - Antonio Restaurant</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="./assets/CSS/menu.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Antonio Logo">
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="menu-hero">
+    <div class="hero-content animate-on-scroll">
+      <h1>Our Menu</h1>
+      <p>Discover authentic Italian flavors crafted with passion and the finest ingredients</p>
+    </div>
+  </section>
+
+  <!-- Menu Navigation -->
+  <section class="menu-nav">
+    <div class="menu-categories">
+      <button class="category-btn active" data-category="all">
+        <i class="fas fa-utensils"></i> All Items
+      </button>
+      <button class="category-btn" data-category="appetizers">
+        <i class="fas fa-leaf"></i> Appetizers
+      </button>
+      <button class="category-btn" data-category="pasta">
+        <i class="fas fa-pasta"></i> Pasta
+      </button>
+      <button class="category-btn" data-category="pizza">
+        <i class="fas fa-pizza-slice"></i> Pizza
+      </button>
+      <button class="category-btn" data-category="main-courses">
+        <i class="fas fa-drumstick-bite"></i> Main Courses
+      </button>
+      <button class="category-btn" data-category="desserts">
+        <i class="fas fa-ice-cream"></i> Desserts
+      </button>
+      <button class="category-btn" data-category="drinks">
+        <i class="fas fa-glass-cheers"></i> Drinks
+      </button>
+    </div>
+  </section>
+
+  <!-- Appetizers Section -->
+  <section class="menu-section" id="appetizers">
+    <div class="section-title animate-on-scroll">
+      <h2>Appetizers</h2>
+      <p>Start your meal with our delicious Italian appetizers</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Appetizer 1 -->
+      <div class="menu-item" data-category="appetizers">
+        <div class="menu-item-badge">Chef's Choice</div>
+        <div class="menu-item-img">
+          <img src="./images/1.avif" alt="Bruschetta Classica">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Bruschetta Classica</h3>
+            <span class="menu-item-price">$9.99</span>
+          </div>
+          <p class="menu-item-desc">Toasted bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Appetizer 2 -->
+      <div class="menu-item" data-category="appetizers">
+        <div class="menu-item-img">
+          <img src="./images/2.avif" alt="Antipasto Platter">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Antipasto Platter</h3>
+            <span class="menu-item-price">$16.99</span>
+          </div>
+          <p class="menu-item-desc">A selection of Italian cured meats, cheeses, olives, and marinated vegetables.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Appetizer 3 -->
+      <div class="menu-item" data-category="appetizers">
+        <div class="menu-item-badge">New</div>
+        <div class="menu-item-img">
+          <img src="./images/3.avif" alt="Arancini Siciliani">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Arancini Siciliani</h3>
+            <span class="menu-item-price">$11.99</span>
+          </div>
+          <p class="menu-item-desc">Crispy fried rice balls stuffed with mozzarella, peas, and meat ragu.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon spicy">
+              <i class="fas fa-pepper-hot"></i>
+              <div class="dietary-tooltip">Spicy</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pasta Section -->
+  <section class="menu-section" id="pasta">
+    <div class="section-title animate-on-scroll">
+      <h2>Pasta</h2>
+      <p>Handmade pasta with authentic Italian sauces</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Pasta 1 -->
+      <div class="menu-item" data-category="pasta">
+        <div class="menu-item-badge">Popular</div>
+        <div class="menu-item-img">
+          <img src="./images/4.avif" alt="Fettuccine Alfredo">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Fettuccine Alfredo</h3>
+            <span class="menu-item-price">$16.99</span>
+          </div>
+          <p class="menu-item-desc">Fresh fettuccine pasta tossed in a creamy Parmesan sauce with a hint of garlic.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pasta 2 -->
+      <div class="menu-item" data-category="pasta">
+        <div class="menu-item-img">
+          <img src="./images/5.avif" alt="Spaghetti Carbonara">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Spaghetti Carbonara</h3>
+            <span class="menu-item-price">$17.99</span>
+          </div>
+          <p class="menu-item-desc">Classic Roman pasta with eggs, Pecorino Romano, black pepper, and guanciale.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pasta 3 -->
+      <div class="menu-item" data-category="pasta">
+        <div class="menu-item-img">
+          <img src="./images/6.avif" alt="Lasagna alla Bolognese">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Lasagna alla Bolognese</h3>
+            <span class="menu-item-price">$18.99</span>
+          </div>
+          <p class="menu-item-desc">Layers of pasta, rich meat sauce, béchamel, and Parmigiano-Reggiano.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pizza Section -->
+  <section class="menu-section" id="pizza">
+    <div class="section-title animate-on-scroll">
+      <h2>Pizza</h2>
+      <p>Wood-fired pizzas with authentic Italian toppings</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Pizza 1 -->
+      <div class="menu-item" data-category="pizza">
+        <div class="menu-item-badge">Best Seller</div>
+        <div class="menu-item-img">
+          <img src="./images/main.png" alt="Pizza Margherita">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Pizza Margherita</h3>
+            <span class="menu-item-price">$14.99</span>
+          </div>
+          <p class="menu-item-desc">Classic Italian pizza with tomato sauce, fresh mozzarella, basil, and olive oil.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pizza 2 -->
+      <div class="menu-item" data-category="pizza">
+        <div class="menu-item-img">
+          <img src="./images/1.avif" alt="Quattro Stagioni">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Quattro Stagioni</h3>
+            <span class="menu-item-price">$18.99</span>
+          </div>
+          <p class="menu-item-desc">Four seasons pizza with artichokes, mushrooms, ham, olives, and mozzarella.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pizza 3 -->
+      <div class="menu-item" data-category="pizza">
+        <div class="menu-item-badge">Spicy</div>
+        <div class="menu-item-img">
+          <img src="./images/2.avif" alt="Pizza Diavola">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Pizza Diavola</h3>
+            <span class="menu-item-price">$17.99</span>
+          </div>
+          <p class="menu-item-desc">Spicy pizza with tomato sauce, mozzarella, spicy salami, and chili flakes.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon spicy">
+              <i class="fas fa-pepper-hot"></i>
+              <div class="dietary-tooltip">Spicy</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Courses Section -->
+  <section class="menu-section" id="main-courses">
+    <div class="section-title animate-on-scroll">
+      <h2>Main Courses</h2>
+      <p>Hearty Italian entrees to satisfy your appetite</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Main Course 1 -->
+      <div class="menu-item" data-category="main-courses">
+        <div class="menu-item-img">
+          <img src="./images/3.avif" alt="Osso Buco alla Milanese">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Osso Buco alla Milanese</h3>
+            <span class="menu-item-price">$28.99</span>
+          </div>
+          <p class="menu-item-desc">Braised veal shanks with vegetables, white wine, and broth, served with risotto.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Course 2 -->
+      <div class="menu-item" data-category="main-courses">
+        <div class="menu-item-badge">Chef's Special</div>
+        <div class="menu-item-img">
+          <img src="./images/4.avif" alt="Saltimbocca alla Romana">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Saltimbocca alla Romana</h3>
+            <span class="menu-item-price">$24.99</span>
+          </div>
+          <p class="menu-item-desc">Veal scaloppine with prosciutto and sage, cooked in white wine and butter sauce.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Course 3 -->
+      <div class="menu-item" data-category="main-courses">
+        <div class="menu-item-img">
+          <img src="./images/5.avif" alt="Branzino al Sale">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Branzino al Sale</h3>
+            <span class="menu-item-price">$26.99</span>
+          </div>
+          <p class="menu-item-desc">Mediterranean sea bass baked in a salt crust with herbs and lemon.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon gluten-free">
+              GF
+              <div class="dietary-tooltip">Gluten Free</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desserts Section -->
+  <section class="menu-section" id="desserts">
+    <div class="section-title animate-on-scroll">
+      <h2>Desserts</h2>
+      <p>Sweet endings to your Italian feast</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Dessert 1 -->
+      <div class="menu-item" data-category="desserts">
+        <div class="menu-item-badge">Signature</div>
+        <div class="menu-item-img">
+          <img src="./images/6.avif" alt="Tiramisu">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Tiramisu</h3>
+            <span class="menu-item-price">$8.99</span>
+          </div>
+          <p class="menu-item-desc">Layers of coffee-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dessert 2 -->
+      <div class="menu-item" data-category="desserts">
+        <div class="menu-item-img">
+          <img src="./images/main.png" alt="Panna Cotta">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Panna Cotta</h3>
+            <span class="menu-item-price">$7.99</span>
+          </div>
+          <p class="menu-item-desc">Silky vanilla custard topped with fresh berry compote.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon gluten-free">
+              GF
+              <div class="dietary-tooltip">Gluten Free</div>
+            </div>
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dessert 3 -->
+      <div class="menu-item" data-category="desserts">
+        <div class="menu-item-img">
+          <img src="./images/1.avif" alt="Cannoli Siciliani">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Cannoli Siciliani</h3>
+            <span class="menu-item-price">$6.99</span>
+          </div>
+          <p class="menu-item-desc">Crispy pastry shells filled with sweet ricotta cream and chocolate chips.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drinks Section -->
+  <section class="menu-section" id="drinks">
+    <div class="section-title animate-on-scroll">
+      <h2>Drinks</h2>
+      <p>Italian wines, cocktails, and beverages</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Drink 1 -->
+      <div class="menu-item" data-category="drinks">
+        <div class="menu-item-img">
+          <img src="./images/2.avif" alt="Italian Wine Selection">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Italian Wine Selection</h3>
+            <span class="menu-item-price">$9.99</span>
+          </div>
+          <p class="menu-item-desc">Glass of premium Italian wine (Chianti, Pinot Grigio, or Prosecco).</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drink 2 -->
+      <div class="menu-item" data-category="drinks">
+        <div class="menu-item-badge">Refreshing</div>
+        <div class="menu-item-img">
+          <img src="./images/3.avif" alt="Limoncello Spritz">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Limoncello Spritz</h3>
+            <span class="menu-item-price">$8.99</span>
+          </div>
+          <p class="menu-item-desc">Aperol, prosecco, limoncello, and soda water with a slice of lemon.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drink 3 -->
+      <div class="menu-item" data-category="drinks">
+        <div class="menu-item-img">
+          <img src="./images/4.avif" alt="Italian Soda">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Italian Soda</h3>
+            <span class="menu-item-price">$4.99</span>
+          </div>
+          <p class="menu-item-desc">Sparkling water with your choice of flavor (berry, citrus, or peach).</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offers Section -->
+  <section class="special-offers">
+    <div class="section-title animate-on-scroll">
+      <h2>Special Offers</h2>
+      <p>Exclusive deals and seasonal specialties</p>
+    </div>
+
+    <div class="offers-grid animate-stagger">
+      <div class="offer-card">
+        <div class="offer-icon">
+          <i class="fas fa-pizza-slice"></i>
+        </div>
+        <h3>Family Pizza Night</h3>
+        <p>Two large pizzas, garlic bread, and a salad for the whole family to enjoy.</p>
+        <div class="offer-price">$34.99</div>
+        <button class="offer-btn">Order Now</button>
+      </div>
+
+      <div class="offer-card">
+        <div class="offer-icon">
+          <i class="fas fa-wine-glass-alt"></i>
+        </div>
+        <h3>Date Night Special</h3>
+        <p>Two main courses, a bottle of wine, and dessert to share. Perfect for a romantic evening.</p>
+        <div class="offer-price">$49.99</div>
+        <button class="offer-btn">Order Now</button>
+      </div>
+
+      <div class="offer-card">
+        <div class="offer-icon">
+          <i class="fas fa-utensils"></i>
+        </div>
+        <h3>Pasta Lovers Deal</h3>
+        <p>Any two pasta dishes, garlic bread, and two soft drinks. Pasta perfection!</p>
+        <div class="offer-price">$29.99</div>
+        <button class="offer-btn">Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content animate-on-scroll">
+      <h2>Ready to Order?</h2>
+      <p>Experience the authentic taste of Italy with our delicious menu. Order online for pickup or delivery, or make a reservation for a memorable dining experience.</p>
+      <div class="cta-buttons">
+        <button class="cta-btn primary">Order Online</button>
+        <button class="cta-btn secondary">Make a Reservation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Antonio Restaurant">
+        </div>
+        <p>Antonio Restaurant has been serving authentic Italian cuisine since 2005. We take pride in our family recipes and commitment to quality ingredients, bringing the taste of Italy to your table.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="menu.html"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="reservation.html"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="order.html"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>123 Italian Street, Little Italy<br>New York, NY 10013</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@antonio-restaurant.com</span>
+          </li>
+        </ul>
+     
+      </div>
+      
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter to receive updates on special offers, new menu items, and events.</p>
+        
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div>
+          <p>&copy; 2025 Antonio Restaurant. All rights reserved.</p>
+        </div>
+        <div>
+          <p>Designed with <i class="fas fa-heart" style="color: #F2360A;"></i> for food lovers</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script>
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+          // Stop observing after animation is triggered
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    // Observe all elements with animation classes
+    document.addEventListener('DOMContentLoaded', function() {
+      const animatedElements = document.querySelectorAll(
+        '.animate-on-scroll, .animate-left, .animate-right, .animate-scale, .animate-fade-in, .animate-stagger'
+      );
+      
+      animatedElements.forEach(el => {
+        observer.observe(el);
+      });
+
+      // Mobile menu toggle functionality
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('nav');
+      
+      menuToggle.addEventListener('click', function() {
+        nav.classList.toggle('active');
+      });
+      
+      // Close menu when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!event.target.closest('nav') && !event.target.closest('.menu-toggle')) {
+          nav.classList.remove('active');
+        }
+      });
+
+      // Back to top functionality
+      const backToTopButton = document.getElementById('backToTop');
+      
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          backToTopButton.style.display = 'flex';
+        } else {
+          backToTopButton.style.display = 'none';
+        }
+      });
+      
+      backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+
+      // Menu category filtering
+      const categoryButtons = document.querySelectorAll('.category-btn');
+      const menuItems = document.querySelectorAll('.menu-item');
+      
+      categoryButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          categoryButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          const category = this.getAttribute('data-category');
+          
+          // Show/hide menu items based on category
+          menuItems.forEach(item => {
+            if (category === 'all' || item.getAttribute('data-category') === category) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+          
+          // Scroll to the appropriate section if not "all"
+          if (category !== 'all') {
+            const section = document.getElementById(category);
+            if (section) {
+              window.scrollTo({
+                top: section.offsetTop - 120,
+                behavior: 'smooth'
+              });
+            }
+          }
+        });
+      });
+
+      // Add to cart functionality
+      const addToCartButtons = document.querySelectorAll('.add-to-cart');
+      addToCartButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const item = this.closest('.menu-item');
+          const itemName = item.querySelector('.menu-item-title').textContent;
+          const itemPrice = item.querySelector('.menu-item-price').textContent;
+          
+          // In a real implementation, this would add the item to a cart
+          alert(`Added ${itemName} to your cart!`);
+          
+          // Visual feedback
+          this.innerHTML = '<i class="fas fa-check"></i> Added';
+          this.style.backgroundColor = '#4CAF50';
+          
+          setTimeout(() => {
+            this.innerHTML = '<i class="fas fa-shopping-cart"></i> Add to Cart';
+            this.style.backgroundColor = '#F2360A';
+          }, 2000);
+        });
+      });
+
+      // Newsletter form submission
+      const newsletterForm = document.querySelector('.newsletter-form');
+      if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const emailInput = this.querySelector('.newsletter-input');
+          alert(`Thank you for subscribing with ${emailInput.value}! You'll receive our newsletter soon.`);
+          emailInput.value = '';
+        });
+      }
+
+      // CTA buttons functionality
+      const ctaButtons = document.querySelectorAll('.cta-btn');
+      ctaButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          if (this.classList.contains('primary')) {
+            window.location.href = 'order.html';
+          } else {
+            window.location.href = 'reservation.html';
+          }
+        });
+      });
+
+      // Special offer buttons
+      const offerButtons = document.querySelectorAll('.offer-btn');
+      offerButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          alert('Special offer added to your cart!');
+        });
+      });
+    });
+  </script>
+</body>
+</html>

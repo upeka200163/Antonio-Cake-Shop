@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Antonio Restaurant</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  
+ <link rel="stylesheet" href="./assets/CSS/contact.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Antonio Logo">
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./reservation.html">Reservation</a></li>
+        <li><a href="./order.html">Order</a></li>
+        <li><a href="./contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Contact Hero Section -->
+  <section class="contact-hero">
+    <div class="container">
+      <h1 class="animate-on-scroll">Get In Touch</h1>
+      <p class="animate-on-scroll">We'd love to hear from you. Whether you have questions about our menu, want to host an event, or just want to say hello, we're here to help!</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info animate-left">
+          <h2>Contact Information</h2>
+          <p>Have questions about our menu, want to host an event, or just want to say hello? We're here to help! Reach out to us using the information below or fill out the contact form.</p>
+          
+          <div class="contact-details">
+            <div class="contact-detail animate-stagger">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h3>Our Location</h3>
+                <p>123 Italian Street, Little Italy<br>New York, NY 10013</p>
+              </div>
+            </div>
+            
+            <div class="contact-detail animate-stagger">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h3>Phone Number</h3>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            
+            <div class="contact-detail animate-stagger">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h3>Email Address</h3>
+                <p>info@antonio-restaurant.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-detail animate-stagger">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h3>Business Hours</h3>
+                <p>Tuesday - Sunday: 5 PM - 11 PM<br>Monday: Closed</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links animate-stagger">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form-container animate-right">
+          <h2 class="form-title">Send Us a Message</h2>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Full Name</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="Your Name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" class="form-control" placeholder="Your Email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-phone">Phone Number</label>
+              <input type="tel" id="contact-phone" class="form-control" placeholder="Your Phone Number">
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <select id="contact-subject" class="form-control" required>
+                <option value="" disabled selected>Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="reservation">Reservation Question</option>
+                <option value="catering">Catering & Events</option>
+                <option value="feedback">Feedback</option>
+                <option value="complaint">Complaint</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" class="form-control" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Hours Section -->
+  <section class="business-hours">
+    <div class="container">
+      <div class="section-title animate-on-scroll">
+        <h2>Business Hours</h2>
+        <p>Plan your visit during our operating hours</p>
+      </div>
+      
+      <div class="hours-container">
+        <div class="hours-card animate-on-scroll">
+          <h3>Restaurant Hours</h3>
+          <ul class="hours-list">
+            <li><span>Monday</span> <span>Closed</span></li>
+            <li><span>Tuesday</span> <span>5 PM - 11 PM</span></li>
+            <li><span>Wednesday</span> <span>5 PM - 11 PM</span></li>
+            <li><span>Thursday</span> <span>5 PM - 11 PM</span></li>
+            <li><span>Friday</span> <span>5 PM - 11 PM</span></li>
+            <li><span>Saturday</span> <span>5 PM - 11 PM</span></li>
+            <li><span>Sunday</span> <span>5 PM - 10 PM</span></li>
+          </ul>
+        </div>
+        
+        <div class="hours-card animate-on-scroll">
+          <h3>Kitchen Hours</h3>
+          <ul class="hours-list">
+            <li><span>Tuesday - Thursday</span> <span>5 PM - 10 PM</span></li>
+            <li><span>Friday - Saturday</span> <span>5 PM - 10:30 PM</span></li>
+            <li><span>Sunday</span> <span>5 PM - 9:30 PM</span></li>
+          </ul>
+        </div>
+        
+        <div class="hours-card animate-on-scroll">
+          <h3>Special Events</h3>
+          <ul class="hours-list">
+            <li><span>Live Music</span> <span>Fri & Sat</span></li>
+            <li><span>Wine Tasting</span> <span>First Thursday</span></li>
+            <li><span>Family Sunday</span> <span>Every Sunday</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-title animate-on-scroll">
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers to common questions</p>
+      </div>
+      
+      <div class="faq-container">
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <span>Do you take reservations?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we highly recommend making reservations, especially for weekend dining. You can make reservations through our website, by calling us directly, or using our mobile app.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <span>Do you offer catering services?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Absolutely! We offer full catering services for events of all sizes. Whether it's an intimate gathering or a large corporate event, we can create a customized menu to suit your needs. Please contact us at least two weeks in advance for catering inquiries.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <span>Is there parking available?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>We have limited valet parking available on a first-come, first-served basis. There are also several public parking garages within walking distance of our restaurant. Street parking is available but can be limited during peak hours.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <span>Do you accommodate dietary restrictions?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we are happy to accommodate various dietary restrictions including vegetarian, vegan, gluten-free, and allergies. Please inform your server of any dietary needs, and we will do our best to accommodate you. For severe allergies, we recommend contacting us in advance.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <span>Do you host private events?</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we have a private dining room that can accommodate up to 30 guests for special events, celebrations, or business meetings. We offer customized menus and dedicated service for private events. Please contact our events coordinator for more information.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Antonio Restaurant">
+        </div>
+        <p>Antonio Restaurant has been serving authentic Italian cuisine since 2005. We take pride in our family recipes and commitment to quality ingredients, bringing the taste of Italy to your table.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="./index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="./about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="./menu.html"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="./reservation.html"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="./order.html"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="./contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>123 Italian Street, Little Italy<br>New York, NY 10013</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@antonio-restaurant.com</span>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter to receive updates on special offers, new menu items, and events.</p>
+        
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div>
+          <p>&copy; 2025 Antonio Restaurant. All rights reserved.</p>
+        </div>
+        <div>
+          <p>Designed with <i class="fas fa-heart" style="color: #F2360A;"></i> for food lovers</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="./script.js"></script>
+  <script>
+    // Additional JavaScript for contact page
+    document.addEventListener('DOMContentLoaded', function() {
+      // FAQ accordion functionality
+      const faqItems = document.querySelectorAll('.faq-item');
+      
+      faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        
+        question.addEventListener('click', () => {
+          // Close all other FAQ items
+          faqItems.forEach(otherItem => {
+            if (otherItem !== item) {
+              otherItem.classList.remove('active');
+            }
+          });
+          
+          // Toggle current item
+          item.classList.toggle('active');
+        });
+      });
+      
+      // Form submission
+      const contactForm = document.getElementById('contact-form');
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // In a real application, you would send the form data to a server
+        // For this example, we'll just show an alert
+        alert('Thank you for your message! We will get back to you as soon as possible.');
+        contactForm.reset();
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antonio Restaurant</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Antonio Logo">
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./reservation.html">Reservation</a></li>
+        <li><a href="./order.html">Order</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Cake Section -->
+  <section class="cake-section">
+    <div class="cake-content">
+      <div class="text animate-on-scroll">
+        <button class="watch-video"><i class="fa-solid fa-play"></i> Watch Video</button>
+        <h1>The Ideal <span>Prepared</span> Cake Regular!</h1>
+        <p>These cakes are made with butter or another fat, like vegetable shortening.
+          The common way is to mix the fat and sugar, then add eggs, and then add flour.</p>
+
+        <div class="buttons">
+          <button class="read-more">Read More</button>
+          <button class="order-now">Order Now</button>
+        </div>
+      </div>
+
+      <div class="image animate-on-scroll">
+        <img src="images/main.png" alt="Cake Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-content">
+      <div class="image animate-left">
+        <img src="./images/3.avif" alt="Antonio Restaurant Interior">
+      </div>
+      <div class="text animate-right">
+        <h2>About Antonio Restaurant</h2>
+        <p>Founded in 2005, Antonio Restaurant has been serving authentic Italian cuisine with a modern twist for nearly two decades. Our passion for food, family, and tradition is at the heart of everything we do.</p>
+        <div class="about-stats animate-stagger">
+          <div class="stat">
+            <h4>18+</h4>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat">
+            <h4>50+</h4>
+            <p>Menu Items</p>
+          </div>
+          <div class="stat">
+            <h4>1000+</h4>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section">
+    <div class="section-title animate-on-scroll">
+      <h2>Our Delicious Menu</h2>
+      <p>Discover our carefully crafted dishes made with the finest ingredients and authentic Italian recipes</p>
+    </div>
+
+    <div class="menu-categories animate-on-scroll">
+      <button class="category-btn active">All</button>
+      <button class="category-btn">Cakes</button>
+      <button class="category-btn">Desserts</button>
+      <button class="category-btn">Pasta</button>
+      <button class="category-btn">Pizza</button>
+      <button class="category-btn">Drinks</button>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Menu Item 1 -->
+      <div class="menu-item">
+        <div class="menu-item-img">
+          <img src="./images/4.avif" alt="Tiramisu Cake">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Tiramisu Cake</h3>
+            <span class="menu-item-price">$8.99</span>
+          </div>
+          <p class="menu-item-desc">Layers of coffee-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Item 2 -->
+      <div class="menu-item">
+        <div class="menu-item-img">
+          <img src="./images/5.avif" alt="Margherita Pizza">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Margherita Pizza</h3>
+            <span class="menu-item-price">$14.99</span>
+          </div>
+          <p class="menu-item-desc">Classic Italian pizza with tomato sauce, fresh mozzarella, basil, and olive oil.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Item 3 -->
+      <div class="menu-item">
+        <div class="menu-item-img">
+          <img src="./images/6.avif" alt="Fettuccine Alfredo">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Fettuccine Alfredo</h3>
+            <span class="menu-item-price">$12.99</span>
+          </div>
+          <p class="menu-item-desc">Fresh fettuccine pasta tossed in a creamy Parmesan sauce with a hint of garlic.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Item 4 -->
+      <div class="menu-item">
+        <div class="menu-item-img">
+          <img src="./images/1.avif" alt="Chocolate Lava Cake">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Chocolate Lava Cake</h3>
+            <span class="menu-item-price">$7.99</span>
+          </div>
+          <p class="menu-item-desc">Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Item 5 -->
+      <div class="menu-item">
+        <div class="menu-item-img">
+          <img src="./images/2.avif" alt="Italian Lemonade">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Italian Lemonade</h3>
+            <span class="menu-item-price">$4.99</span>
+          </div>
+          <p class="menu-item-desc">Freshly squeezed lemons with a hint of mint and natural sweeteners.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Item 6 -->
+      <div class="menu-item">
+        <div class="menu-item-img">
+          <img src="./images/3.avif" alt="Cannoli">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Cannoli</h3>
+            <span class="menu-item-price">$6.99</span>
+          </div>
+          <p class="menu-item-desc">Crispy pastry shells filled with sweet ricotta cream and chocolate chips.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section class="reservation-section">
+    <div class="reservation-content">
+      <div class="reservation-text animate-left">
+        <h2>Make a Reservation</h2>
+        <p>Book your table at Antonio Restaurant and experience the finest Italian cuisine in a warm and welcoming atmosphere. Our team is dedicated to making your dining experience unforgettable.</p>
+        
+        <div class="reservation-features animate-stagger">
+          <div class="reservation-feature">
+            <i class="fas fa-clock"></i>
+            <span>Open Monday - Sunday, 5 PM - 11 PM</span>
+          </div>
+          <div class="reservation-feature">
+            <i class="fas fa-users"></i>
+            <span>Groups of up to 12 people welcome</span>
+          </div>
+         
+          <div class="reservation-feature">
+            <i class="fas fa-music"></i>
+            <span>Live music on Friday and Saturday evenings</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="reservation-form animate-right">
+        <h3>Book Your Table</h3>
+        <form id="reservation-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Your Phone" required>
+            </div>
+            <div class="form-group">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" class="form-control" required>
+                <option value="" disabled selected>Select Guests</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6">6 People</option>
+                <option value="7">7 People</option>
+                <option value="8">8 People</option>
+                <option value="9">9+ People</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="time">Time</label>
+              <select id="time" class="form-control" required>
+                <option value="" disabled selected>Select Time</option>
+                <option value="17:00">5:00 PM</option>
+                <option value="17:30">5:30 PM</option>
+                <option value="18:00">6:00 PM</option>
+                <option value="18:30">6:30 PM</option>
+                <option value="19:00">7:00 PM</option>
+                <option value="19:30">7:30 PM</option>
+                <option value="20:00">8:00 PM</option>
+                <option value="20:30">8:30 PM</option>
+                <option value="21:00">9:00 PM</option>
+                <option value="21:30">9:30 PM</option>
+                <option value="22:00">10:00 PM</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="special-requests">Special Requests</label>
+            <textarea id="special-requests" class="form-control" rows="3" placeholder="Any special requests or dietary restrictions?"></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">Reserve Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section class="order-section">
+    <div class="section-title animate-on-scroll">
+      <h2>Place Your Order</h2>
+      <p>Order your favorite dishes for pickup or delivery. Freshly prepared and ready when you are!</p>
+    </div>
+
+    <div class="order-content">
+      <div class="order-cart animate-left">
+        <h3>Your Order</h3>
+        <div class="cart-items">
+          <!-- Cart Item 1 -->
+          <div class="cart-item">
+            <div class="cart-item-img">
+              <img src="./images/4.avif" alt="Tiramisu Cake">
+            </div>
+            <div class="cart-item-details">
+              <div class="cart-item-title">Tiramisu Cake</div>
+              <div class="cart-item-price">$8.99</div>
+            </div>
+            <div class="cart-item-controls">
+              <button class="quantity-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn">+</button>
+              <button class="remove-btn"><i class="fas fa-trash"></i></button>
+            </div>
+          </div>
+
+          <!-- Cart Item 2 -->
+          <div class="cart-item">
+            <div class="cart-item-img">
+              <img src="./images/5.avif" alt="Margherita Pizza">
+            </div>
+            <div class="cart-item-details">
+              <div class="cart-item-title">Margherita Pizza</div>
+              <div class="cart-item-price">$14.99</div>
+            </div>
+            <div class="cart-item-controls">
+              <button class="quantity-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn">+</button>
+              <button class="remove-btn"><i class="fas fa-trash"></i></button>
+            </div>
+          </div>
+
+          <!-- Cart Item 3 -->
+          <div class="cart-item">
+            <div class="cart-item-img">
+              <img src="./images/6.avif" alt="Italian Lemonade">
+            </div>
+            <div class="cart-item-details">
+              <div class="cart-item-title">Italian Lemonade</div>
+              <div class="cart-item-price">$4.99</div>
+            </div>
+            <div class="cart-item-controls">
+              <button class="quantity-btn">-</button>
+              <span class="quantity-display">2</span>
+              <button class="quantity-btn">+</button>
+              <button class="remove-btn"><i class="fas fa-trash"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-summary">
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>$33.96</span>
+          </div>
+          <div class="summary-row">
+            <span>Delivery Fee</span>
+            <span>$3.99</span>
+          </div>
+          <div class="summary-row">
+            <span>Tax</span>
+            <span>$2.71</span>
+          </div>
+          <div class="summary-row total">
+            <span>Total</span>
+            <span>$40.66</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-form animate-right">
+        <h3>Order Details</h3>
+        
+        <div class="form-group">
+          <label for="order-name">Full Name</label>
+          <input type="text" id="order-name" class="form-control" placeholder="Your Name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="order-phone">Phone Number</label>
+          <input type="tel" id="order-phone" class="form-control" placeholder="Your Phone Number" required>
+        </div>
+        <div class="form-group">
+          <label for="order-address">Delivery Address</label>
+          <input type="text" id="order-address" class="form-control" placeholder="Your Full Address" required>
+        </div>
+        
+        <div class="form-group">
+          <label>Delivery Option</label>
+          <div class="delivery-options">
+            <div class="delivery-option selected">
+              <i class="fas fa-truck"></i>
+              <span>Delivery</span>
+            </div>
+            <div class="delivery-option">
+              <i class="fas fa-store"></i>
+              <span>Pickup</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label>Payment Method</label>
+          <div class="payment-methods">
+            <div class="payment-method selected">
+              <i class="fas fa-credit-card"></i>
+              <span>Credit Card</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="order-actions">
+          <button class="continue-shopping">Continue Shopping</button>
+          <button class="checkout-btn">Checkout Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="section-title animate-on-scroll">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you. Get in touch with us for any questions or feedback</p>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-info animate-left">
+        <h3>Get in Touch</h3>
+        <p>Have questions about our menu, want to host an event, or just want to say hello? We're here to help! Reach out to us using the information below or fill out the contact form.</p>
+        
+        <div class="contact-details animate-stagger">
+          <div class="contact-detail">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-detail-text">
+              <h4>Our Location</h4>
+              <p>123 Italian Street, Little Italy<br>New York, NY 10013</p>
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <i class="fas fa-phone"></i>
+            <div class="contact-detail-text">
+              <h4>Phone Number</h4>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-detail-text">
+              <h4>Email Address</h4>
+              <p>info@antonio-restaurant.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-links animate-stagger">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+      </div>
+      
+      <div class="contact-form animate-right">
+        <h3>Send Us a Message</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="contact-name">Full Name</label>
+            <input type="text" id="contact-name" class="form-control" placeholder="Your Name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" class="form-control" placeholder="Your Email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" class="form-control" placeholder="Subject of your message" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" class="form-control" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Antonio Restaurant">
+        </div>
+        <p>Antonio Restaurant has been serving authentic Italian cuisine since 2005. We take pride in our family recipes and commitment to quality ingredients, bringing the taste of Italy to your table.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>123 Italian Street, Little Italy<br>New York, NY 10013</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@antonio-restaurant.com</span>
+          </li>
+        </ul>
+     
+      </div>
+      
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter to receive updates on special offers, new menu items, and events.</p>
+        
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div>
+          <p>&copy; 2026 Antonio Restaurant. All rights reserved.</p>
+        </div>
+        <div>
+          <p>Designed with <i class="fas fa-heart" style="color: #F2360A;"></i> for food lovers</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>

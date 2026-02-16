@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Online - Antonio Restaurant</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="./assets/CSS/order.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Antonio Logo">
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="order.html" class="active">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="order-hero">
+    <div class="hero-content animate-on-scroll">
+      <h1>Order Online</h1>
+      <p>Enjoy our authentic Italian cuisine from the comfort of your home</p>
+    </div>
+  </section>
+
+  <!-- Order Process Steps -->
+  <section class="order-steps">
+    <div class="steps-container animate-on-scroll">
+      <div class="step active">
+        <div class="step-icon">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="step-text">Your Order</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-truck"></i>
+        </div>
+        <div class="step-text">Delivery Info</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-credit-card"></i>
+        </div>
+        <div class="step-text">Payment</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="step-text">Confirmation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Content -->
+  <section class="order-content">
+    <div class="order-cart animate-left">
+      <h2>Your Order</h2>
+      <div class="cart-items">
+        <!-- Cart Item 1 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="./images/1.avif" alt="Pizza Margherita">
+          </div>
+          <div class="cart-item-details">
+            <div class="cart-item-title">Pizza Margherita</div>
+            <div class="cart-item-price">$14.99</div>
+          </div>
+          <div class="cart-item-controls">
+            <button class="quantity-btn">-</button>
+            <span class="quantity-display">1</span>
+            <button class="quantity-btn">+</button>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+
+        <!-- Cart Item 2 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="./images/2.avif" alt="Fettuccine Alfredo">
+          </div>
+          <div class="cart-item-details">
+            <div class="cart-item-title">Fettuccine Alfredo</div>
+            <div class="cart-item-price">$16.99</div>
+          </div>
+          <div class="cart-item-controls">
+            <button class="quantity-btn">-</button>
+            <span class="quantity-display">1</span>
+            <button class="quantity-btn">+</button>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+
+        <!-- Cart Item 3 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="./images/3.avif" alt="Tiramisu">
+          </div>
+          <div class="cart-item-details">
+            <div class="cart-item-title">Tiramisu</div>
+            <div class="cart-item-price">$8.99</div>
+          </div>
+          <div class="cart-item-controls">
+            <button class="quantity-btn">-</button>
+            <span class="quantity-display">1</span>
+            <button class="quantity-btn">+</button>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+
+        <!-- Cart Item 4 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="./images/4.avif" alt="Italian Soda">
+          </div>
+          <div class="cart-item-details">
+            <div class="cart-item-title">Italian Soda</div>
+            <div class="cart-item-price">$4.99</div>
+          </div>
+          <div class="cart-item-controls">
+            <button class="quantity-btn">-</button>
+            <span class="quantity-display">2</span>
+            <button class="quantity-btn">+</button>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>$45.96</span>
+        </div>
+        <div class="summary-row">
+          <span>Delivery Fee</span>
+          <span>$3.99</span>
+        </div>
+        <div class="summary-row">
+          <span>Tax</span>
+          <span>$3.67</span>
+        </div>
+        <div class="summary-row total">
+          <span>Total</span>
+          <span>$53.62</span>
+        </div>
+      </div>
+
+      <div class="order-actions">
+        <button class="continue-shopping">Continue Shopping</button>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+
+    <div class="order-form animate-right">
+      <h2>Order Details</h2>
+      
+      <div class="form-section">
+        <h3><i class="fas fa-user"></i> Personal Information</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" class="form-control" placeholder="Your First Name" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" class="form-control" placeholder="Your Last Name" required>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" class="form-control" placeholder="Your Email Address" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" class="form-control" placeholder="Your Phone Number" required>
+        </div>
+      </div>
+      
+      <div class="form-section">
+        <h3><i class="fas fa-map-marker-alt"></i> Delivery Information</h3>
+        
+        <div class="form-group">
+          <label>Delivery Option</label>
+          <div class="delivery-options">
+            <div class="delivery-option selected">
+              <i class="fas fa-truck"></i>
+              <span>Delivery</span>
+              <small>30-45 min</small>
+            </div>
+            <div class="delivery-option">
+              <i class="fas fa-store"></i>
+              <span>Pickup</span>
+              <small>15-20 min</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="address">Delivery Address</label>
+          <input type="text" id="address" class="form-control" placeholder="Your Full Address" required>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" class="form-control" placeholder="City" required>
+          </div>
+          <div class="form-group">
+            <label for="zip">ZIP Code</label>
+            <input type="text" id="zip" class="form-control" placeholder="ZIP Code" required>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="instructions">Delivery Instructions (Optional)</label>
+          <textarea id="instructions" class="form-control" rows="3" placeholder="Any special delivery instructions?"></textarea>
+        </div>
+      </div>
+      
+      <div class="form-section">
+        <h3><i class="fas fa-credit-card"></i> Payment Method</h3>
+        
+        <div class="form-group">
+          <label>Select Payment Method</label>
+          <div class="payment-methods">
+            <div class="payment-method selected">
+              <i class="fas fa-credit-card"></i>
+              <span>Credit Card</span>
+            </div>
+            <div class="payment-method">
+              <i class="fab fa-paypal"></i>
+              <span>PayPal</span>
+            </div>
+            <div class="payment-method">
+              <i class="fas fa-money-bill-wave"></i>
+              <span>Cash</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" class="form-control" placeholder="1234 5678 9012 3456" required>
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="expiry">Expiry Date</label>
+            <input type="text" id="expiry" class="form-control" placeholder="MM/YY" required>
+          </div>
+          <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" class="form-control" placeholder="123" required>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="card-name">Name on Card</label>
+          <input type="text" id="card-name" class="form-control" placeholder="Your Name as on Card" required>
+        </div>
+      </div>
+      
+      <div class="order-actions">
+        <button class="continue-shopping">Back to Menu</button>
+        <button class="checkout-btn" id="place-order-btn">Place Your Order</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Confirmation Modal -->
+  <div class="modal" id="confirmation-modal">
+    <div class="modal-content animate-scale">
+      <div class="modal-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h2>Order Confirmed!</h2>
+      <p>Thank you for your order! Your food is being prepared and will be delivered to you within 30-45 minutes.</p>
+      <p><strong>Order ID: #ANT2024001</strong></p>
+      <p>You will receive a confirmation email shortly.</p>
+      <button class="modal-btn" id="modal-ok-btn">OK</button>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Antonio Restaurant">
+        </div>
+        <p>Antonio Restaurant has been serving authentic Italian cuisine since 2005. We take pride in our family recipes and commitment to quality ingredients, bringing the taste of Italy to your table.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="menu.html"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="reservation.html"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="order.html"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>123 Italian Street, Little Italy<br>New York, NY 10013</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@antonio-restaurant.com</span>
+          </li>
+        </ul>
+     
+      </div>
+      
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter to receive updates on special offers, new menu items, and events.</p>
+        
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div>
+          <p>&copy; 2025 Antonio Restaurant. All rights reserved.</p>
+        </div>
+        <div>
+          <p>Designed with <i class="fas fa-heart" style="color: #F2360A;"></i> for food lovers</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script>
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+          // Stop observing after animation is triggered
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    // Observe all elements with animation classes
+    document.addEventListener('DOMContentLoaded', function() {
+      const animatedElements = document.querySelectorAll(
+        '.animate-on-scroll, .animate-left, .animate-right, .animate-scale, .animate-fade-in, .animate-stagger'
+      );
+      
+      animatedElements.forEach(el => {
+        observer.observe(el);
+      });
+
+      // Mobile menu toggle functionality
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('nav');
+      
+      menuToggle.addEventListener('click', function() {
+        nav.classList.toggle('active');
+      });
+      
+      // Close menu when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!event.target.closest('nav') && !event.target.closest('.menu-toggle')) {
+          nav.classList.remove('active');
+        }
+      });
+
+      // Back to top functionality
+      const backToTopButton = document.getElementById('backToTop');
+      
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          backToTopButton.style.display = 'flex';
+        } else {
+          backToTopButton.style.display = 'none';
+        }
+      });
+      
+      backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+
+      // Newsletter form submission
+      const newsletterForm = document.querySelector('.newsletter-form');
+      if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const emailInput = this.querySelector('.newsletter-input');
+          alert(`Thank you for subscribing with ${emailInput.value}! You'll receive our newsletter soon.`);
+          emailInput.value = '';
+        });
+      }
+
+      // Cart functionality
+      const quantityBtns = document.querySelectorAll('.quantity-btn');
+      const removeBtns = document.querySelectorAll('.remove-btn');
+      
+      // Quantity adjustment
+      quantityBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const display = this.parentElement.querySelector('.quantity-display');
+          let quantity = parseInt(display.textContent);
+          
+          if (this.textContent === '+' && quantity < 10) {
+            quantity++;
+          } else if (this.textContent === '-' && quantity > 1) {
+            quantity--;
+          }
+          
+          display.textContent = quantity;
+          updateCartTotal();
+        });
+      });
+      
+      // Remove item from cart
+      removeBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const cartItem = this.closest('.cart-item');
+          cartItem.style.opacity = '0';
+          setTimeout(() => {
+            cartItem.remove();
+            updateCartTotal();
+          }, 300);
+        });
+      });
+      
+      // Update cart total
+      function updateCartTotal() {
+        const cartItems = document.querySelectorAll('.cart-item');
+        let subtotal = 0;
+        
+        cartItems.forEach(item => {
+          const priceText = item.querySelector('.cart-item-price').textContent;
+          const price = parseFloat(priceText.replace('$', ''));
+          const quantity = parseInt(item.querySelector('.quantity-display').textContent);
+          subtotal += price * quantity;
+        });
+        
+        const deliveryFee = 3.99;
+        const tax = subtotal * 0.08; // 8% tax
+        const total = subtotal + deliveryFee + tax;
+        
+        document.querySelector('.summary-row:nth-child(1) span:last-child').textContent = `$${subtotal.toFixed(2)}`;
+        document.querySelector('.summary-row:nth-child(3) span:last-child').textContent = `$${tax.toFixed(2)}`;
+        document.querySelector('.summary-row.total span:last-child').textContent = `$${total.toFixed(2)}`;
+      }
+      
+      // Delivery option selection
+      const deliveryOptions = document.querySelectorAll('.delivery-option');
+      deliveryOptions.forEach(option => {
+        option.addEventListener('click', function() {
+          deliveryOptions.forEach(opt => opt.classList.remove('selected'));
+          this.classList.add('selected');
+        });
+      });
+      
+      // Payment method selection
+      const paymentMethods = document.querySelectorAll('.payment-method');
+      paymentMethods.forEach(method => {
+        method.addEventListener('click', function() {
+          paymentMethods.forEach(m => m.classList.remove('selected'));
+          this.classList.add('selected');
+        });
+      });
+      
+      // Continue shopping buttons
+      const continueShoppingBtns = document.querySelectorAll('.continue-shopping');
+      continueShoppingBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          window.location.href = 'menu.html';
+        });
+      });
+      
+      // Checkout button
+      const checkoutBtn = document.querySelector('.checkout-btn');
+      checkoutBtn.addEventListener('click', function() {
+        // In a real implementation, this would validate the form and process payment
+        // For this demo, we'll just show the confirmation modal
+        document.getElementById('confirmation-modal').style.display = 'flex';
+      });
+      
+      // Modal functionality
+      const modal = document.getElementById('confirmation-modal');
+      const modalOkBtn = document.getElementById('modal-ok-btn');
+      
+      modalOkBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+        // Redirect to home page
+        window.location.href = 'index.html';
+      });
+      
+      // Close modal when clicking outside
+      window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+          window.location.href = 'index.html';
+        }
+      });
+      
+      // Place order button
+      const placeOrderBtn = document.getElementById('place-order-btn');
+      placeOrderBtn.addEventListener('click', function() {
+        // Validate form
+        const requiredFields = document.querySelectorAll('input[required]');
+        let isValid = true;
+        
+        requiredFields.forEach(field => {
+          if (!field.value.trim()) {
+            isValid = false;
+            field.style.borderColor = 'red';
+          } else {
+            field.style.borderColor = '#ddd';
+          }
+        });
+        
+        if (isValid) {
+          document.getElementById('confirmation-modal').style.display = 'flex';
+        } else {
+          alert('Please fill in all required fields.');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
