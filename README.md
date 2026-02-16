@@ -29,8 +29,8 @@ Font Awesome<br>
 
 ---
 
-
-<br>🔧 Installation & Usage
+<br>
+🔧 Installation & Usage
 
 Clone the Repository:
 
