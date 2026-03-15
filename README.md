@@ -36,8 +36,9 @@ Clone the Repository:
 
 Bash
 git clone : https://github.com/upeka200163/Antonio-Cake-Shop.git
-  ---
-                                   Enjoy the best cakes in town! 🎂
+  
+  -----------------------------------------------------------------------------------------------------------------------------
+  Enjoy the best cakes in town! 🎂
 
 
 
