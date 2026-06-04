@@ -1,96 +1,133 @@
-# 🍰 Antonio Cake Shop — Premium Bakery & Cake Ordering Website
+# 🍰 Antonio Cake Restaurant — Premium Bakery & Dessert Experience
 
-> **"Crafting Sweet Moments, One Slice at a Time."**
+> **"Creating unforgettable moments with handcrafted cakes, delightful desserts, and exceptional service."**
 
-Antonio Cake Shop is a modern, responsive, and visually appealing bakery website designed to provide customers with a delightful online experience. The platform showcases premium cakes, desserts, and bakery products through an elegant user interface, smooth animations, and customer-friendly navigation.
+Antonio Cake Restaurant is a modern, responsive, and visually engaging bakery & dessert website designed to deliver a premium digital experience for cake lovers and food enthusiasts. The platform combines elegant design, interactive features, and seamless navigation to showcase a wide range of cakes, desserts, and specialty menu items.
 
-Whether customers are looking for celebration cakes, daily treats, or custom-made desserts, Antonio Cake Shop offers a seamless digital journey from browsing products to placing orders.
+Built with modern web technologies, the website offers an immersive browsing experience that allows customers to explore products, make reservations, and connect with the brand effortlessly.
+
+---
+
+## 🌍 Live Demo
+
+🔗 **Website:**
+https://upeka200163.github.io/Antonio-Cake-Restaurant-/
 
 ---
 
 # ✨ Project Overview
 
-Antonio Cake Shop was developed to create a professional online presence for a modern bakery business.
+Antonio Cake Restaurant was developed to establish a strong online presence for a modern bakery and dessert business.
 
-The website focuses on:
+The platform focuses on:
 
-- 🍰 Premium cake presentation
-- 🛒 Easy online ordering experience
-- 📱 Mobile-friendly design
-- 🎨 Modern UI/UX principles
-- ⚡ Smooth animations and interactions
+* 🍰 Showcasing premium cakes and desserts
+* 📅 Online table reservations
+* 🛒 Convenient ordering experience
+* 🎨 Modern and elegant user interface
+* 📱 Fully responsive design
+* ⚡ Smooth animations and interactions
 
-With attractive visuals and responsive layouts, the platform ensures an enjoyable experience across all devices.
+The website delivers a user-friendly experience across all devices while maintaining a professional and visually appealing brand identity.
 
 ---
 
-# 🌟 Features
+# 🌟 Key Features
 
-### 🍰 Premium Product Showcase
-- Beautifully designed cake galleries
-- Featured products section
-- Attractive product cards
+## 🍰 Premium Cake & Dessert Showcase
 
-### 🛒 Online Ordering Experience
-- User-friendly ordering workflow
-- Easy product browsing
-- Quick customer interaction
+* Featured cakes and signature desserts
+* Beautifully designed product galleries
+* Modern product presentation layouts
+* Interactive product sections
 
-### 📅 Reservation & Booking Section
-- Simple reservation interface
-- Customer-friendly booking experience
+---
 
-### 🎭 Interactive Animations
-- Smooth scrolling effects
-- Hover animations
-- Dynamic visual interactions
+## 📋 Interactive Menu Section
 
-### 📱 Fully Responsive Design
+* Organized food and dessert categories
+* Easy-to-browse menu layout
+* Attractive visual presentation
+
+---
+
+## 📅 Online Reservation System
+
+* Simple table booking interface
+* Customer-friendly reservation process
+* Streamlined user experience
+
+---
+
+## 🛒 Online Ordering Experience
+
+* Easy product browsing
+* User-focused ordering workflow
+* Quick customer interactions
+
+---
+
+## 🎭 Smooth Animations & Effects
+
+* Scroll animations
+* Hover effects
+* Dynamic transitions
+* Enhanced visual engagement
+
+---
+
+## 📱 Fully Responsive Design
+
 Optimized for:
 
-- 💻 Desktop
-- 📱 Mobile
-- 📟 Tablet
-- 🖥️ Large Screens
+* 💻 Desktop & Laptops
+* 📱 Mobile Devices
+* 📟 Tablets
+* 🖥️ Large Screens
 
-### 📧 Contact & Customer Support
-- Contact form integration
-- Customer inquiry support
-- Business information section
+---
+
+## 📧 Contact & Customer Support
+
+* Contact form integration
+* Business information section
+* Customer inquiry support
 
 ---
 
 # 🛠️ Technology Stack
 
-| Technology | Purpose |
-|------------|----------|
-| HTML5 | Website Structure |
-| CSS3 | Styling & Responsive Design |
-| JavaScript | Interactive Features |
-| Font Awesome | Icons & Visual Elements |
+| Technology              | Purpose                     |
+| ----------------------- | --------------------------- |
+| HTML5                   | Website Structure           |
+| CSS3                    | Styling & Responsive Design |
+| JavaScript (Vanilla JS) | Interactive Features        |
+| Font Awesome            | Icons & UI Components       |
 
 ---
 
 # 🎨 Design Highlights
 
-✨ Modern Bakery Branding  
-✨ Elegant Product Presentation  
-✨ Responsive User Interface  
-✨ Smooth Animations & Transitions  
-✨ Mobile-First Design Approach  
-✨ Professional User Experience (UX)
+✨ Premium Bakery Branding
+✨ Elegant UI/UX Design
+✨ Responsive Layout Architecture
+✨ Interactive Product Displays
+✨ Smooth Animations & Transitions
+✨ Mobile-First Development Approach
+✨ Optimized User Experience
 
 ---
 
 # 📂 Project Structure
 
 ```plaintext
-Antonio-Cake-Shop/
+Antonio-Cake-Restaurant/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 ├── images/
+├── assets/
 └── README.md
 ```
 
@@ -101,33 +138,34 @@ Antonio-Cake-Shop/
 Clone the repository:
 
 ```bash
-git clone https://github.com/upeka200163/Antonio-Cake-Shop.git
+git clone https://github.com/upeka200163/Antonio-Cake-Restaurant-.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd Antonio-Cake-Shop
+cd Antonio-Cake-Restaurant-
 ```
 
-Open `index.html` in your browser.
+Open `index.html` in your preferred browser or run the project using VS Code Live Server.
 
 ---
 
 # 🚀 Future Enhancements
 
-- 💳 Online Payment Integration
-- 👤 Customer Accounts
-- ⭐ Product Reviews & Ratings
-- 🎂 Custom Cake Ordering System
-- 📦 Order Tracking
-- 📱 Mobile Application
+* 💳 Secure Online Payment Integration
+* 👤 Customer Account Management
+* ⭐ Customer Reviews & Ratings
+* 🎂 Custom Cake Ordering System
+* 📦 Real-Time Order Tracking
+* 📱 Mobile Application Development
+* 🔔 Reservation Notifications
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions, suggestions, and feature improvements are welcome.
 
 1. Fork the repository
 2. Create your feature branch
@@ -143,5 +181,11 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🍰 "Every cake tells a story, and every story deserves something sweet."
+### 🍰 "Every celebration deserves a perfect cake, and every cake deserves a perfect presentation."
+
+
+
+
+
+
 
