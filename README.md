@@ -109,13 +109,13 @@ Optimized for:
 
 # 🎨 Design Highlights
 
-✨ Premium Bakery Branding
-✨ Elegant UI/UX Design
-✨ Responsive Layout Architecture
-✨ Interactive Product Displays
-✨ Smooth Animations & Transitions
-✨ Mobile-First Development Approach
-✨ Optimized User Experience
+✨ Premium Bakery Branding  </br >
+✨ Elegant UI/UX Design   </br >
+✨ Responsive Layout Architecture </br >
+✨ Interactive Product Displays  </br >
+✨ Smooth Animations & Transitions </br >
+✨ Mobile-First Development Approach </br >
+✨ Optimized User Experience </br >
 
 ---
 
