@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu - Antonio Restaurant</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/CSS/menu.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Antonio Logo">
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="menu-hero">
+    <div class="hero-content animate-on-scroll">
+      <h1>Our Menu</h1>
+      <p>Discover authentic Italian flavors crafted with passion and the finest ingredients</p>
+    </div>
+  </section>
+
+  <!-- Menu Navigation -->
+<section class="menu-nav">
+  <div class="menu-categories">
+    <button class="category-btn active" data-category="all">
+      🍰 All Items
+    </button>
+    <button class="category-btn" data-category="cakes">
+      🍰 Cakes
+    </button>
+    <button class="category-btn" data-category="pastries">
+      🥐 Pastries
+    </button>
+    <button class="category-btn" data-category="desserts">
+      🍮 Desserts
+    </button>
+    <button class="category-btn" data-category="coffee">
+      ☕ Coffee
+    </button>
+    <button class="category-btn" data-category="services">
+      🎉 Services
+    </button>
+    <button class="category-btn" data-category="featured">
+      🍰 Featured Products
+    </button>
+  </div>
+</section>
+
+  <!-- Cakes Section -->
+  <section class="menu-section" id="cakes">
+    <div class="section-title animate-on-scroll">
+      <h2>Cakes</h2>
+      <p>Authentic Italian cakes crafted with premium ingredients and traditional recipes for every special occasion.</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Cakes 1 -->
+      <div class="menu-item" data-category="cakes">
+        <div class="menu-item-badge">Chef's Choice</div>
+        <div class="menu-item-img">
+          <img src="./images/4.avif" alt="Tiramisu Cake">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Tiramisu Cake</h3>
+            <span class="menu-item-price">$12.99</span>
+          </div>
+          <p class="menu-item-desc">An exquisite Italian cake experience, blending rich espresso flavor with smooth mascarpone layers and a light cocoa dust.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cakes 2 -->
+      <div class="menu-item" data-category="cakes">
+        <div class="menu-item-img">
+          <img src="./images/27.avif" alt="Ricotta Cheesecake">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Ricotta Cheesecake</h3>
+            <span class="menu-item-price">$14.99</span>
+          </div>
+          <p class="menu-item-desc">A creamy and indulgent cheesecake made with ricotta and topped with a berry compote.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cakes 3 -->
+      <div class="menu-item" data-category="cakes">
+        <div class="menu-item-badge">New</div>
+        <div class="menu-item-img">
+          <img src="./images/28.avif" alt="Lemon Ricotta Cake">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Lemon Ricotta Cake</h3>
+            <span class="menu-item-price">$11.99</span>
+          </div>
+          <p class="menu-item-desc">A delightful combination of fresh lemons and creamy ricotta in a moist cake base.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pastries Section -->
+  <section class="menu-section" id="pastries">
+    <div class="section-title animate-on-scroll">
+      <h2>Pastries</h2>
+      <p>Delicious Italian pastries made fresh daily</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Pastries 1 -->
+      <div class="menu-item" data-category="pastries">
+        <div class="menu-item-badge">Popular</div>
+        <div class="menu-item-img">
+          <img src="./images/29.avif" alt="Pasticciotto">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Pasticciotto</h3>
+            <span class="menu-item-price">$3.99</span>
+          </div>
+          <p class="menu-item-desc">Fresh fettuccine pasta tossed in a creamy Parmesan sauce with a hint of garlic.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastries 2 -->
+      <div class="menu-item" data-category="pastries">
+        <div class="menu-item-img">
+          <img src="./images/30.avif" alt="Biscotti">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Biscotti</h3>
+            <span class="menu-item-price">$2.99</span>
+          </div>
+          <p class="menu-item-desc">Traditional Italian almond biscuits, twice-baked for a crisp texture and perfect with coffee.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastries 3 -->
+      <div class="menu-item" data-category="pastries">
+        <div class="menu-item-img">
+          <img src="./images/31.avif" alt="Sfogliatella">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Sfogliatella</h3>
+            <span class="menu-item-price">$4.99</span>
+          </div>
+          <p class="menu-item-desc">Traditional Italian pastry with delicate flaky layers and a sweet, creamy filling.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desserts Section -->
+  <section class="menu-section" id="desserts">
+    <div class="section-title animate-on-scroll">
+      <h2>Desserts</h2>
+      <p>Classic Italian desserts made to deliver a sweet and memorable experience in every bite.</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Dessert 1 -->
+      <div class="menu-item" data-category="desserts">
+        <div class="menu-item-badge">Best Seller</div>
+        <div class="menu-item-img">
+          <img src="./images/32.avif" alt="Affogato">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Affogato</h3>
+            <span class="menu-item-price">$6.99</span>
+          </div>
+          <p class="menu-item-desc">Classic Italian dessert with vanilla gelato and hot espresso.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts 2 -->
+      <div class="menu-item" data-category="desserts">
+        <div class="menu-item-img">
+          <img src="./images/33.avif" alt="Semifreddo">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Semifreddo</h3>
+            <span class="menu-item-price">$5.99</span>
+          </div>
+          <p class="menu-item-desc">A refreshing Italian dessert with a light, creamy texture and a hint of citrus.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts 3 -->
+      <div class="menu-item" data-category="desserts">
+        <div class="menu-item-badge">New</div>
+        <div class="menu-item-img">
+          <img src="./images/34.avif" alt="Panna Cotta">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Panna Cotta</h3>
+            <span class="menu-item-price">$5.99</span>
+          </div>
+          <p class="menu-item-desc">A creamy Italian dessert made with milk, cream, and gelatin, often served with fruit or a sweet sauce.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              <i class="fas fa-leaf"></i>
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coffee Section -->
+  <section class="menu-section" id="coffee">
+    <div class="section-title animate-on-scroll">
+      <h2>Coffee</h2>
+      <p>Rich and aromatic Italian coffee, perfectly brewed to complement your favorite treats.</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Coffee 1 -->
+      <div class="menu-item" data-category="coffee">
+        <div class="menu-item-img">
+          <img src="./images/24.avif" alt="Espresso">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Espresso</h3>
+            <span class="menu-item-price">$3.50</span>
+          </div>
+          <p class="menu-item-desc">Rich and aromatic Italian coffee, perfectly brewed to complement your favorite treats.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>   
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coffee 2 -->
+      <div class="menu-item" data-category="coffee">
+        <div class="menu-item-badge">Chef's Special</div>
+        <div class="menu-item-img">
+          <img src="./images/25.avif" alt="Cappuccino">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Cappuccino</h3>
+            <span class="menu-item-price">$4.50</span>
+          </div>
+          <p class="menu-item-desc">A perfectly balanced Italian classic, featuring a rich shot of espresso, velvety steamed milk, and a thick layer of creamy milk foam, topped with a dusting of cocoa.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coffee 3 -->
+      <div class="menu-item" data-category="coffee">
+        <div class="menu-item-img">
+          <img src="./images/26.avif" alt="Macchiato">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Macchiato</h3>
+            <span class="menu-item-price">$3.99</span>
+          </div>
+          <p class="menu-item-desc">A bold shot of intense espresso 'stained' with a dollop of creamy whipped milk foam. Perfect for those who love a strong coffee with a touch of smoothness.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon coffee-special">
+                ☕
+                <div class="dietary-tooltip">Coffee Special</div>
+            </div>
+            <div class="dietary-icon italian">
+                🇮🇹
+                <div class="dietary-tooltip">Italian Classic</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="menu-section" id="services">
+    <div class="section-title animate-on-scroll">
+      <h2>Services</h2>
+      <p>Custom cake orders, catering, online ordering, and reliable delivery for every celebration.</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Service 1 -->
+      <div class="menu-item" data-category="services">
+        <div class="menu-item-badge">🎉Party Favorite</div>
+        <div class="menu-item-img">
+          <img src="./images/21.avif" alt="Birthday Cakes">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Birthday Cakes</h3>
+            <span class="menu-item-price">$8.99</span>
+          </div>
+          <p class="menu-item-desc">Layers of soft sponge cake and creamy frosting, beautifully decorated for memorable birthday celebrations.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon intersecting">
+              I
+              <div class="dietary-tooltip">Intersecting</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="menu-item" data-category="services">
+        <div class="menu-item-img">
+          <img src="./images/22.avif" alt="Wedding Cakes">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Wedding Cakes</h3>
+            <span class="menu-item-price">$12.99</span>
+          </div>
+          <p class="menu-item-desc">Elegant wedding cakes crafted with exquisite designs and premium ingredients to make your special day unforgettable.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon elegant">
+              ✨
+              <div class="dietary-tooltip">Elegant Choice</div>
+            </div>
+            <div class="dietary-icon favorite">
+              ❤️
+              <div class="dietary-tooltip">Customer Favorite</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="menu-item" data-category="services">
+        <div class="menu-item-img">
+          <img src="./images/23.avif" alt="Event Catering">    
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Event Catering</h3>
+            <span class="menu-item-price">$6.99</span>
+          </div>
+          <p class="menu-item-desc">Delicious catering packages featuring premium food and desserts for every occasion.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon catering">
+              🍽️
+              <div class="dietary-tooltip">Catering Service</div>
+            </div>
+            <div class="dietary-icon events">
+              🎊
+              <div class="dietary-tooltip">Special Events</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="menu-section" id="featured">
+    <div class="section-title animate-on-scroll">
+      <h2>Featured Products</h2>
+      <p>A selection of our most popular Italian cakes, pastries, and desserts loved by customers.</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Featured Products 1 -->
+      <div class="menu-item" data-category="featured">
+        <div class="menu-item-img">
+          <img src="./images/20.avif" alt="Vanilla Bomboloni">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Vanilla Bomboloni</h3>
+            <span class="menu-item-price">$5.99</span>
+          </div>
+          <p class="menu-item-desc">Soft Italian doughnuts filled with smooth vanilla cream, offering a light and delicious sweetness.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Products 2 -->
+      <div class="menu-item" data-category="featured">
+        <div class="menu-item-badge">Italian Classic</div>
+        <div class="menu-item-img">
+          <img src="./images/35.avif" alt="Classic Tiramisu">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Classic Tiramisu</h3>  
+            <span class="menu-item-price">$8.99</span>
+          </div>
+          <p class="menu-item-desc">Layered dessert with coffee-soaked ladyfingers and mascarpone cream.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Products 3 -->
+      <div class="menu-item" data-category="featured">
+        <div class="menu-item-img">
+          <img src="./images/2.avif" alt="Sicilian Cannoli">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Sicilian Cannoli</h3>
+            <span class="menu-item-price">$4.99</span>
+          </div>
+          <p class="menu-item-desc">Crispy pastry shells filled with sweet ricotta cream and chocolate chips.</p>
+          <div class="dietary-info">
+            <div class="dietary-icon vegetarian">
+              V
+              <div class="dietary-tooltip">Vegetarian</div>
+            </div>
+          </div>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offers Section -->
+  <section class="special-offers">
+    <div class="section-title animate-on-scroll">
+      <h2>Special Offers</h2>
+      <p>Exclusive deals and seasonal specialties</p>
+    </div>
+
+    <div class="offers-grid animate-stagger">
+      <div class="offer-card">
+        <div class="offer-icon"><i class="fas fa-birthday-cake"></i></div>
+        <h3>Signature Cake</h3>
+        <p>Enjoy our handcrafted Italian cakes made with authentic recipes and premium ingredients. Perfect for birthdays, celebrations, and special moments.</p>
+        <div class="offer-price">$34.99</div>
+        <button class="offer-btn">Order Now</button>
+      </div>
+
+      <div class="offer-card">
+        <div class="offer-icon"><i class="fas fa-bread-slice"></i></div>
+        <h3>Pastry Delight Deal</h3>
+        <p>Buy any two Italian pastries and receive a complimentary coffee. Freshly baked daily for the perfect sweet experience.</p>
+        <div class="offer-price">$49.99</div>
+        <button class="offer-btn">Order Now</button>
+      </div>
+
+      <div class="offer-card">
+        <div class="offer-icon"><i class="fas fa-cookie-bite"></i></div>
+        <h3>Sweet Dessert Special</h3>
+        <p>Treat yourself to our famous Italian desserts including tiramisu, panna cotta, and gelato at exclusive discounted prices.</p>
+        <div class="offer-price">$29.99</div>
+        <button class="offer-btn">Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content animate-on-scroll">
+      <h2>Ready to Order?</h2>
+      <p>Experience the authentic taste of Italy with our delicious menu. Order online for pickup or delivery, or make a reservation for a memorable dining experience.</p>
+      <div class="cta-buttons">
+        <button class="cta-btn primary">Order Online</button>
+        <button class="cta-btn secondary">Make a Reservation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Antonio Restaurant">
+        </div>
+        <p>Antonio Restaurant has been serving authentic Italian cuisine since 2005. We take pride in our family recipes and commitment to quality ingredients, bringing the taste of Italy to your table.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="menu.html"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="reservation.html"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="order.html"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>123 Italian Street, Little Italy<br>New York, NY 10013</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@antonio-restaurant.com</span>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter to receive updates on special offers, new menu items, and events.</p>
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div><p>&copy; 2026 Antonio Restaurant. All rights reserved.</p></div>
+        <div><p>Designed with <i class="fas fa-heart" style="color: #F2360A;"></i> for food lovers</p></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <!-- JavaScript File External Link -->
+  <script src="./assets/JS/menu.js"></script>
+</body>
+</html>
